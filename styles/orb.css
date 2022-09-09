@@ -4,6 +4,10 @@
     padding: 5px;
 }
 
+#input-zone {
+    text-align: center;
+}
+
 .hide {
     display: none;
 }
@@ -29,12 +33,18 @@ h1 {
 p {
     font: bolder;
     font-variant: small-caps;
-    margin-left: 75px;
     text-shadow: 2px 2px 5px rgba(187, 4, 4, 0.829);
     font-size: larger;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#reset {
-    margin-left: 75px;
+#reset-button {
+    display: block;
+    margin-left: auto;
+    scroll-margin-right: auto;
+    width: 50%;
+}
+
+#fortune-holder {
+    text-align: center;
 }
