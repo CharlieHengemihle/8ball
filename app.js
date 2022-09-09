@@ -1,8 +1,10 @@
-// import functions and grab DOM elements
+const askButton = document.getElementById('ponder');
+const resetButton = document.getElementById('reset');
 
-// let state
+const inputsContainer = document.getElementById('question');
+const fortuneContainer = document.getElementById('orb-speak');
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+askButton.addEventListener('click', () => {
+    imputsContainer.classlist.toggle('hide');
+    fortuneContainer.classList.toggle('hide');
+});
