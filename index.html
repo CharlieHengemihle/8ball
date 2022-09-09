@@ -20,21 +20,25 @@
     <body>
         <header>
             <img src="/assets/html_css_js.png" />
-            <h1>Web App</h1>
+            <h5>Web App</h5>
         </header>
 
         <main>
-            <div id="input-zone">
-                <h3>What do ye ask of the ball?</h3>
-                <input type="text" name="question" id="question" />
-                <button id="ponder">Ponder the Orb</button>
-            </div>
-            <div id="the-orb">
-                <img src="assets/orb.jpg" alt="pondering..." id="orb" />
-            </div>
-            <div>
-                <h3>THE ORB HAS SPOKEN!</h3>
+            <section id="input-zone">
+                <div>
+                    <h2>What do ye ask of the mighty orb?</h2>
+                    <input type="text" name="question" id="question" />
+                    <button id="ponder">Ponder the Orb</button>
+                </div>
+                <div id="the-orb">
+                    <img src="assets/orb.jpg" alt="pondering..." id="orb" />
+                </div>
+            </section>
+            <div id="fortune-holder" class="hide">
+                <h1>THE ORB HAS SPOKEN!</h1>
                 <p id="orb-speak"></p>
+                <img src="assets/Pippinpalantir.webp" alt="scream, hobbitses!" id="hobbit" />
+
                 <button id="reset">More ponderance... if you dare</button>
             </div>
         </main>
