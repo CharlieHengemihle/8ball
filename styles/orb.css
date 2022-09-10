@@ -1,7 +1,11 @@
 #orb {
-    height: 40%;
-    width: 40%;
+    height: 69%;
+    width: 69%;
     padding: 5px;
+}
+
+#input-zone {
+    text-align: center;
 }
 
 .hide {
@@ -24,4 +28,23 @@ h2 {
 
 h1 {
     text-shadow: 2px 2px 5px rgba(187, 4, 4, 0.829);
+}
+
+p {
+    font: bolder;
+    font-variant: small-caps;
+    text-shadow: 2px 2px 5px rgba(187, 4, 4, 0.829);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#reset-button {
+    display: block;
+    margin-left: auto;
+    scroll-margin-right: auto;
+    width: 50%;
+}
+
+#fortune-holder {
+    text-align: center;
 }
